@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Bank Marketing Campaign Subscription Prediction
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]( )
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/Faharfaza/Final-Project/blob/6c25f746eb394e3adcb5b6b58de5616f562245c5/app.py )
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
@@ -149,8 +149,20 @@ Expected benefits:
 
 ## Model Deployment
 
+The Streamlit application is fully functional in a local environment. To run the application, please execute the following command in the terminal from the project directory:
+
+```
+streamlit run app.py
+```
+
+This will launch the interactive web interface in your browser, allowing real-time predictions using the trained machine learning model.
+
+Cloud deployment is currently in progress. In the meantime, running the application locally ensures full access to all features and model functionalities.
+
+---
+
 **Access the Application:**  
-[Streamlit Link Here]
+[https://github.com/Faharfaza/Final-Project/blob/6c25f746eb394e3adcb5b6b58de5616f562245c5/app.py]
 
 **Access the Tableu:**
 [https://public.tableau.com/shared/QR9NJGY2S?:display_count=n&:origin=viz_share_link]
