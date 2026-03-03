@@ -166,7 +166,7 @@ streamlit run app.py
 
 You may manually download the trained model from the official GitHub release:
 
-https://github.com/jcdspurwadhika/JCDSI-0101_Alpha/releases/download/v1.0/final_random_forest_pipeline.joblib
+[https://github.com/jcdspurwadhika/JCDSI-0101_Alpha/releases/download/v1.0/final_random_forest_pipeline.joblib]
 
 After downloading, place the file inside the project root directory (or inside the `model/` folder if applicable).
 
