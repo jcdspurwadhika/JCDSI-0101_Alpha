@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Bank Marketing Campaign Subscription Prediction
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/Faharfaza/Final-Project/blob/6c25f746eb394e3adcb5b6b58de5616f562245c5/app.py )
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-bank-marketing-9ubxjzappknapy3olr3zkj2.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
@@ -162,7 +162,7 @@ Cloud deployment is currently in progress. In the meantime, running the applicat
 ---
 
 **Access the Application:**  
-[https://github.com/Faharfaza/Final-Project/blob/6c25f746eb394e3adcb5b6b58de5616f562245c5/app.py]
+[https://app-bank-marketing-9ubxjzappknapy3olr3zkj2.streamlit.app/]
 
 **Access the Tableu:**
 [https://public.tableau.com/shared/QR9NJGY2S?:display_count=n&:origin=viz_share_link]
@@ -170,3 +170,40 @@ Cloud deployment is currently in progress. In the meantime, running the applicat
 ---
 
 ## Repository Structure
+```text
+├── data/                            # Dataset files
+├── model/                           # Serialized model artifacts (.joblib)
+├── notebooks/                       # Jupyter notebooks for analysis
+├── app.py                           # Streamlit Application Source Code
+├── README.md                        # Project Documentation
+└── requirements.txt                 # Python dependencies
+
+```
+
+## Installation and Usage
+
+To replicate the analysis or run the application locally, follow these steps:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/jcdspurwadhika/JCDSI-0101_Alpha.git]
+
+    ```
+
+2.  **Install Dependencies:**
+    It is recommended to use a virtual environment. Install the required libraries using:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the Analysis (Jupyter Notebook):**
+    To view the detailed data exploration and model training process:
+    ```bash
+    jupyter notebook
+    ```
+
+4.  **Run the Web Application (Streamlit):**
+    To launch the interactive prediction dashboard locally:
+    ```bash
+    streamlit run app.py
+    ```
