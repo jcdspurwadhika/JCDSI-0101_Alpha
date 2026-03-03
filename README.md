@@ -186,8 +186,8 @@ To replicate the analysis or run the application locally, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/jcdspurwadhika/JCDSI-0101_Alpha.git]
-
+    git clone [https://github.com/your-username/JCDSI-0101_Alpha.git](https://github.com/your-username/JCDSI-0101_Alpha.git)
+    
     ```
 
 2.  **Install Dependencies:**
@@ -199,7 +199,7 @@ To replicate the analysis or run the application locally, follow these steps:
 3.  **Run the Analysis (Jupyter Notebook):**
     To view the detailed data exploration and model training process:
     ```bash
-    jupyter notebook
+    Bank_Marketing_Campaign_Kenny_Faza.ipynb
     ```
 
 4.  **Run the Web Application (Streamlit):**
@@ -207,3 +207,16 @@ To replicate the analysis or run the application locally, follow these steps:
     ```bash
     streamlit run app.py
     ```
+ 
+ ## Tools and Technologies
+
+- **Programming Language:** Python 3.9
+- **Libraries:** Pandas, NumPy, Scikit-Learn (v1.5.2), Imbalanced-Learn, XGBoost, SHAP, Matplotlib, Seaborn, Joblib
+- **Modeling Techniques:** Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost
+- **Hyperparameter Tuning:** RandomizedSearchCV with Cross-Validation
+- **Model Evaluation Metrics:** F2-Score, ROC-AUC, Precision-Recall Curve, Confusion Matrix
+- **Deployment:** Streamlit Cloud
+- **Model Serialization:** Joblib
+- **Development Environmnet:** Jupyter Notebook, Visual Studio Code
+- **Data Visualization:** Tableu Public
+
