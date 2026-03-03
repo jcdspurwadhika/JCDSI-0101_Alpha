@@ -2,10 +2,24 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
+import urllib.request
+import os
 
-#1. Load the trained model pipeline
-pipeline = joblib.load('final_random_forest_pipeline.joblib')
+#Define the URL and the local filename
+MODEL_URL = "https://github.com/jcdspurwadhika/JCDSI-0101_Alpha/releases/download/v1.0/final_random_forest_pipeline.joblib"
+MODEL_PATH = "final_random_forest_pipeline.joblib"
 
+@st.cache_resource
+def load_model():
+    # Check if the file already exists locally (so we don't download it every time)
+    if not os.path.exists(MODEL_PATH):
+        with st.spinner("Downloading model from GitHub... please wait."):
+            urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+    
+    return joblib.load(MODEL_PATH)
+
+#Call the function to load your model
+pipeline = load_model()
 st.title("Bank Marketing Campaign Predictor")
 st.write("Enter client details below to predict if they will subscribe to a term deposit.")
 
@@ -83,4 +97,5 @@ if st.button("Predict Subscription"):
         st.error(f"Unlikely to subscribe. (Confidence: {1-probability:.2%})")
 
     
+
 #To run put "streamlit run app.py" on terminal   
