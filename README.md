@@ -210,7 +210,7 @@ To replicate the analysis or run the application locally, follow these steps:
  
  ## Tools and Technologies
 
-- **Programming Language:** Python 3.9
+- **Programming Language:** Python 3.12.5
 - **Libraries:** Pandas, NumPy, Scikit-Learn (v1.5.2), Imbalanced-Learn, XGBoost, SHAP, Matplotlib, Seaborn, Joblib
 - **Modeling Techniques:** Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost
 - **Hyperparameter Tuning:** RandomizedSearchCV with Cross-Validation
