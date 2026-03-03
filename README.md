@@ -151,6 +151,24 @@ Expected benefits:
 
 The final model has been deployed as an interactive web application using Streamlit to facilitate real-time prediction for business stakeholders.
 
+### Model File (Joblib)
+
+The trained model file (`final_random_forest_pipeline.joblib`) can be obtained in two ways:
+
+**Option 1 — Automatic Download (Recommended)**  
+If the model file is not found in the project directory, running the Streamlit application will automatically download it from the official release.
+
+Run:
+
+streamlit run app.py
+
+**Option 2 — Manual Download**
+
+You may manually download the trained model from the official GitHub release:
+
+https://github.com/jcdspurwadhika/JCDSI-0101_Alpha/releases/download/v1.0/final_random_forest_pipeline.joblib
+
+After downloading, place the file inside the project root directory (or inside the `model/` folder if applicable).
 
 **Access the Application:**  
 [https://app-bank-marketing-9ubxjzappknapy3olr3zkj2.streamlit.app/]
