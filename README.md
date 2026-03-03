@@ -149,17 +149,8 @@ Expected benefits:
 
 ## Model Deployment
 
-The Streamlit application is fully functional in a local environment. To run the application, please execute the following command in the terminal from the project directory:
+The final model has been deployed as an interactive web application using Streamlit to facilitate real-time prediction for business stakeholders.
 
-```
-streamlit run app.py
-```
-
-This will launch the interactive web interface in your browser, allowing real-time predictions using the trained machine learning model.
-
-Cloud deployment is currently in progress. In the meantime, running the application locally ensures full access to all features and model functionalities.
-
----
 
 **Access the Application:**  
 [https://app-bank-marketing-9ubxjzappknapy3olr3zkj2.streamlit.app/]
